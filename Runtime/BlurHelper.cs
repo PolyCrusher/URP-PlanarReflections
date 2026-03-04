@@ -72,7 +72,7 @@ namespace SiestaGames.PlanarReflections
         /// </summary>
         public static void LimitColorValue(RenderTexture rt, Material blurMat, float maxValue)
         {
-            RenderTexture tempRT = RenderTexture.GetTemporary(rt.descriptor);
+            var tempRT = RenderTexture.GetTemporary(rt.descriptor);
 
             blurMat.SetTexture(blitTextureId, rt);
             blurMat.SetFloat(maxValueId, maxValue);

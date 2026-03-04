@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
-
-namespace SiestaGames.PlanarReflections
+namespace SiestaGames.PlanarReflections.Editor
 {
-
 	[CustomEditor(typeof(PlanarReflections))]
-	public class PlanarReflectionsEditor : Editor
+	public class PlanarReflectionsEditor : UnityEditor.Editor
 	{
+		//UnityEditor.Rendering.Universal.ShaderGUI.LitShader
 		#region Attributes
 
 		private bool showPlanarReflTex = true;
@@ -100,5 +99,4 @@ namespace SiestaGames.PlanarReflections
         #region Methods
         #endregion
     }
-
 }

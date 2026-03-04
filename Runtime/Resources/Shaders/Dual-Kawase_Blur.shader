@@ -1,4 +1,4 @@
-Shader "Blur/Dual-Kawase Blur"
+Shader "Hidden/Blur/Dual-Kawase Blur"
 {   
 	Properties
 	{

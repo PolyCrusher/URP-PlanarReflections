@@ -85,6 +85,12 @@ The performance of this technique depends a lot on the complexity of the scene. 
 * Add an option to select the number of blurred sub targets (this should come with extra info to allow blurring with more or less steps these subtargets).
 * Haven't tested the technique in different platforms (mobile, WebGL, consoles,...) so it may need tweaking or changes to work there.
 
+# Shader
+
+## URPPlanarReflectionLit
+
+![URPPlanarReflectionLit.png](Documentation%7E/URPPlanarReflectionLit.png)
+
 # Samples
 
 The sample images here have been taken from *Empire in Decay*. It's a game developed by Siesta Games and should release sometime in Q1 or Q2 2026. If you find this project useful we ask you to take a look at the game:
